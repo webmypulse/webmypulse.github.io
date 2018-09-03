@@ -1,27 +1,27 @@
 
-#cContent {
+.cContent {
     max-width: 85%;
     margin: 0 auto;
 }
 
-#cContent h1, #cContent h2 {
+.cContent h1, .cContent h2 {
     font-weight: bold;
     font-size: 2em;
     text-align: center;
     margin: 10px auto;
 }
     
-#firstText, #secondText {
+.firstText, .secondText {
     margin: 20px auto;
 }
 
-#brandSelect {
+.brandSelect {
     text-align: center;
     font-size: 1.1em;
     margin: 10px auto;
 }
 
-#brandSelect select {
+.brandSelect select {
     width: 200px;
     border: solid 1px black;
     border-radius: 5px;
@@ -30,7 +30,7 @@
     margin-left: 10px;
 }
 
-#brandSelect select:hover {
+.brandSelect select:hover {
     cursor: pointer;
 }
 
@@ -87,7 +87,7 @@
 
 @media only all and (max-width: 430px) {
 
-    #brandSelect select {
+    .brandSelect select {
         width: auto;
         border: solid 1px black;
         border-radius: 5px;
@@ -97,7 +97,7 @@
     }
 
 
-    #brandSelect {
+    .brandSelect {
         text-align: center;
         font-size: 1em;
         margin: 10px auto;

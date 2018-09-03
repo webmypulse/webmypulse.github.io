@@ -1,5 +1,5 @@
 
-#success {
+.success {
     border: 1px solid black;
     border-radius: 15px;
     max-width: 400px;
@@ -8,14 +8,14 @@
     position: relative;
   }
 
-#success span:first-child {
+.success span:first-child {
     display: block;
     margin: 20px 0;
     font-weight: bold;
     font-size: 1.2em;
 }
 
-#success span:last-child {
+.success span:last-child {
     display: block;
     margin: 20px 0;
 }

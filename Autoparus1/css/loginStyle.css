@@ -1,5 +1,5 @@
 
-#loginForm {
+.loginForm {
   border: 1px solid black;
   border-radius: 15px;
   max-width: 400px;
@@ -19,24 +19,24 @@
   color: black;
 }
 
-#loginForm > span:first-child {
+.loginForm > span:first-child {
   display: block;
   margin: 20px 0 10px 0;
   font-weight: bold;
   font-size: 1.3em;
 }
 
-#loginForm > span:nth-child(3) {
+.loginForm > span:nth-child(3) {
   display: block;
   margin-bottom: -8px;
 }
 
-#loginForm > span:nth-child(7) {
+.loginForm > span:nth-child(7) {
   display: block;
   margin: 25px 0 -8px 0;
 }
 
-#loginForm > button {
+.loginForm > button {
   border: 1px solid black;
   border-radius: 10px;
   background: white;
@@ -49,7 +49,7 @@
   transition-duration: 0.2s;
 }
 
-#loginForm > button:hover {
+.loginForm > button:hover {
   border: 1px solid black;
   border-radius: 10px;
   background: black;
@@ -57,17 +57,17 @@
   cursor: pointer;
 }
 
-#loginForm > div {
+.loginForm > div {
   margin: 0 auto;
 }
 
-#forget {
+.forget {
   display: block;
   margin: 0 auto 10px auto;
   font-size: 0.8em;
 }
 
-#regButton {
+.regButton {
   display:inline-block;
   border: 1px solid black;
   border-radius: 10px;
@@ -81,7 +81,7 @@
   transition-duration: 0.2s;
 }
 
-#regButton:hover {
+.regButton:hover {
   border: 1px solid black;
   border-radius: 10px;
   background: black;
@@ -99,7 +99,7 @@
   
   @media only all and (max-width: 500px) { 
 
-  #loginForm {
+  .loginForm {
     margin: 20px 7%;
   }
   

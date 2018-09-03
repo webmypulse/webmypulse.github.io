@@ -1,5 +1,5 @@
 
-#registrationForm {
+.registrationForm {
   border: 1px solid black;
   border-radius: 15px;
   max-width: 400px;
@@ -19,19 +19,19 @@
   color: black;
 }
 
-#reg {
+.reg {
   display: block;
   margin: 20px 0;
   font-weight: bold;
   font-size: 1.3em;
 }
 
-#registrationForm input {
+.registrationForm input {
   font-weight: bolder;
   font-family: 'Comfortaa', cursive;
 }
 
-#registrationForm > button {
+.registrationForm > button {
   border: 1px solid black;
   border-radius: 10px;
   background: white;
@@ -44,7 +44,7 @@
   transition-duration: 0.2s;
 }
 
-#registrationForm > button:hover {
+.registrationForm > button:hover {
   border: 1px solid black;
   border-radius: 10px;
   background: black;
@@ -56,11 +56,11 @@
   
   @media only all and (max-width: 500px) {
   
-  #registrationForm {
+  .registrationForm {
     margin: 10px 7%;
   }
 
-  #registrationForm > button {
+  .registrationForm > button {
     margin: 10px 0;
     font-size: 1em;
     letter-spacing: 0;

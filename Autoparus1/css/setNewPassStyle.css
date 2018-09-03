@@ -1,6 +1,6 @@
 
 
-#setForm {
+.setForm {
     border: 1px solid black;
     border-radius: 15px;
     max-width: 400px;
@@ -20,28 +20,28 @@
     color: black;
   }
 
-  #setPass {
+  .setPass {
     display: block;
     margin: 20px 0;
     font-weight: bold;
     font-size: 1.3em;
   }
   
-  #setForm input {
+  .setForm input {
     font-weight: bolder;
     font-family: 'Comfortaa', cursive;
   }
 
-#createPass {
+.createPass {
     display: block;
     margin: 20px 0;
 }
 
-#red {
+.red {
     color: red;
 }
 
-#setForm > button {
+.setForm > button {
     border: 1px solid black;
     border-radius: 10px;
     background: white;
@@ -54,7 +54,7 @@
     transition-duration: 0.2s;
   }
   
-  #setForm > button:hover {
+  .setForm > button:hover {
     border: 1px solid black;
     border-radius: 10px;
     background: black;
@@ -66,11 +66,11 @@
 
 @media only all and (max-width: 500px) {
   
-    #setForm {
+    .setForm {
       margin: 10px 7%;
     }
   
-    #setForm > button {
+    .setForm > button {
         border: 1px solid black;
         border-radius: 10px;
         background: white;

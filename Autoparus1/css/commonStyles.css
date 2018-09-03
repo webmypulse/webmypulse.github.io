@@ -130,16 +130,16 @@ table
     text-decoration: none;
   }
   
-  #hatWrapp {
+  .hatWrapp {
       display: flex;
       outline: solid 0px gray;
   }
-  #hatWrapp > div{
+  .hatWrapp > div{
       flex-grow: 1;
       outline: solid 0px gray;
   }
   
-  #logo {
+  .logo {
       color: #222533;
       font-size: 70px;
       font-weight: bold;
@@ -203,7 +203,7 @@ table
 
 /*  ===========================  НАЧАЛО ФУТЕРА  =====================================  */
 
-#footer {
+footer {
     display: flex;
     justify-content: space-between;
     position: fixed;
@@ -214,7 +214,7 @@ table
     background-color: white;
 }
 
-#footer > div {
+footer > div {
     margin: 0 auto;
 }
 
@@ -278,7 +278,7 @@ table
   
   @media only all and (max-width: 750px) {
   
-    #logo {
+    .logo {
       font-size: 50px;
       margin: 20px;
   }
@@ -286,17 +286,17 @@ table
   
   @media only all and (max-width: 650px) {
   
-    #logo {
+    .logo {
       font-size: 50px;
       margin: 20px;
   }
   
-  #menu-01, #menu-02 {
+  .menu-01, .menu-02 {
     display: flex;
     flex-direction: column;
   }
   
-  #menu-01 div:first-child, #menu-02 div:first-child {
+  .menu-01 div:first-child, .menu-02 div:first-child {
     margin-bottom: -10px;
   }
   
@@ -314,7 +314,7 @@ table
       right: 5px;
     }
   
-    #logo {
+    .logo {
       font-size: 50px;
       margin: 5px;
   }
@@ -342,11 +342,11 @@ table
     margin-bottom: 8px;
   }
   
-  #menu-01 div:last-child {
+  .menu-01 div:last-child {
     margin-bottom: 0;
   }
   
-  #menu-01 div:first-child, #menu-02 div:first-child {
+  .menu-01 div:first-child, .menu-02 div:first-child {
     margin-bottom: 0;
   }
   
@@ -354,7 +354,7 @@ table
   
   @media only all and (max-width: 420px) {
   
-    #logo {
+    .logo {
       font-size: 40px;
       margin: 10px 5px 5px 10px;
   }
@@ -399,7 +399,7 @@ table
 
   @media only all and (max-width: 350px) {
 
-    #logo {
+    .logo {
       font-size: 34px;
       margin: 10px 5px 5px 10px;
       letter-spacing: -1px;
