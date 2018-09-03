@@ -1,35 +1,35 @@
 
-#tagline {
+.tagline {
   font-size: 36px;
   margin-top: 260px;
   letter-spacing: 3px;
   margin-left: 0;
 }
 
-#tagline h1:last-child {
+.tagline h1:last-child {
   display: none;
 }
 
-#search {
+.search {
   margin: 150px 13% 0 13%;
   position: relative;
 }
 
-#search span {
+.search span {
   position: absolute;
   right: 25px;
   bottom: -20px;
 
 }
 
-#content {
+.content {
     text-align: center;
     margin: 10px auto 80px auto;
 }
 
 /* ===================== ПОЛЕ ПОИСКА ==================== */
 
-#firstForm {
+.firstForm {
   position: relative;
 }
 
@@ -68,7 +68,7 @@ button.mainButton:before {
 
 @media only all and (max-width: 850px) {
   
-  #tagline h1:first-child {
+  .tagline h1:first-child {
     display: none;
   }
 
@@ -76,7 +76,7 @@ button.mainButton:before {
 
 @media only all and (max-width: 500px) {
 
-#search span {
+.search span {
   right: 15px;
   bottom: -20px;
   font-size: 12px;
